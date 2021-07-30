@@ -1,0 +1,11 @@
+.products {
+  margin: 126px auto 0;
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  @import "./aside";
+  @import "./beers-main";
+}

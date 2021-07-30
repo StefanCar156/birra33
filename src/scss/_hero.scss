@@ -1,0 +1,52 @@
+.hero {
+  margin: 87.5px auto 0;
+  width: 90%;
+  max-width: 1170px;
+  height: 566px;
+  background-image: url(../images/jumbo-img.jpg);
+  background-position: 0 0;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 98px;
+
+  &-title {
+    margin-top: 36px;
+    font-family: $alegreya;
+    font-size: 64px;
+    line-height: 83px;
+    color: $white;
+    text-transform: capitalize;
+    font-weight: weight(bold);
+    text-align: center;
+  }
+  &-paragraph {
+    margin-top: 11px;
+    font-size: 22px;
+    line-height: 29px;
+    color: #eee2c8;
+    text-align: center;
+  }
+  &-btn {
+    margin-top: 51px;
+    text-transform: uppercase;
+    font-family: $alegreya;
+    font-weight: weight(bold);
+    font-size: 17px;
+    line-height: 22px;
+    color: $primaryWhite;
+    background-color: $primaryOrange;
+    height: 57px;
+    width: 268.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #793319;
+    }
+  }
+}

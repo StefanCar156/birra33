@@ -1,0 +1,249 @@
+@media screen and (max-width: 768px) {
+  .header {
+    .nav {
+      height: 115px;
+      &-logo {
+        width: 107px;
+      }
+    }
+    &-bottom {
+      height: 95.5px;
+      &-content {
+        flex-direction: column;
+        justify-content: start;
+      }
+      &-heading {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 21px;
+      }
+      &-paragraph {
+        font-size: 14px;
+        line-height: 14px;
+      }
+    }
+  }
+  .hero {
+    padding: 0 36px;
+    &-title {
+      font-size: 55px;
+      line-height: 71px;
+    }
+    &-paragraph {
+      font-size: 19px;
+      line-height: 25px;
+    }
+    &-btn {
+      width: 163px;
+      height: 45px;
+    }
+  }
+  .products {
+    min-width: 0;
+    width: 440px;
+    margin: 108px auto;
+
+    &-main {
+      width: fit-content;
+    }
+
+    &-modal {
+      width: 100%;
+    }
+
+    &-beers {
+      gap: 20px;
+      width: 440px;
+      justify-content: flex-start;
+
+      .card {
+        width: 210px;
+
+        &-abv {
+          font-size: 12px;
+        }
+      }
+
+      &-list {
+        width: 100%;
+        .card {
+          width: 100%;
+          max-width: 440px;
+          padding: 15px;
+          height: fit-content;
+
+          &-heading {
+            margin-top: 8px;
+            font-size: 29px;
+            line-height: 38px;
+          }
+          &-description {
+            font-size: 14px;
+            line-height: 18px;
+          }
+          &-btn {
+            line-height: 18px;
+            width: 175.5px;
+            height: 42px;
+          }
+        }
+      }
+    }
+    .options {
+      flex-direction: column;
+
+      .display-info {
+        font-size: 12px;
+        line-height: 18px;
+      }
+
+      &-selects {
+        margin-top: 20px;
+      }
+    }
+
+    .aside {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      .cart {
+        &-total {
+          width: 100%;
+          text-align: center;
+        }
+        &-btn {
+          width: 150px;
+          height: 40px;
+          font-size: 14px;
+        }
+
+        &-modal {
+          .modal {
+            &-content {
+              width: 90%;
+              height: 100%;
+              padding: 30px 20px;
+            }
+            &-list {
+              height: 70%;
+            }
+          }
+        }
+      }
+
+      .search {
+        &-btn {
+          width: 29px;
+          height: 29px;
+        }
+      }
+      .date-btn {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+      }
+      .categories {
+        &-list {
+          align-items: center;
+        }
+      }
+    }
+
+    &-modal {
+      .modal {
+        &-content {
+          flex-direction: column;
+          align-items: center;
+          overflow-y: scroll;
+          padding-bottom: 20px;
+        }
+        &-img-wrapper {
+          margin-right: 0;
+        }
+        &-img {
+          width: 60%;
+        }
+        &-info {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+        }
+        &-heading {
+          text-align: center;
+        }
+        &-btn {
+          align-self: center;
+        }
+      }
+    }
+  }
+
+  .footer {
+    height: fit-content;
+    padding-bottom: 110px;
+    &-content {
+      max-width: 440px;
+    }
+    &-main {
+      flex-wrap: wrap;
+      position: relative;
+      margin-top: 88px;
+    }
+    &-info {
+      max-width: 210px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 270px;
+        height: 0.5px;
+        background-color: #e5d2af;
+      }
+    }
+    &-paragraph {
+      font-size: 12px;
+      line-height: 18px;
+    }
+    .links {
+      &-link {
+        font-size: 12px;
+        line-height: 18px;
+      }
+    }
+    &-blog {
+      margin-top: 50px;
+      margin-left: 0;
+      max-width: 210px;
+
+      .blog {
+        &-item {
+          margin-bottom: 27px;
+        }
+        &-link {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+    }
+    &-contacts {
+      margin-top: 50px;
+      margin-left: 0;
+
+      .contacts {
+        &-item {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+    }
+
+    &-copyright {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+}

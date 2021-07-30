@@ -1,0 +1,223 @@
+@media screen and (max-width: 480px) {
+  .header {
+    .nav {
+      height: 78.5px;
+
+      &-content {
+        justify-content: start;
+      }
+      &-logo {
+        margin-top: -15px;
+        margin-left: 5px;
+      }
+
+      &-btn {
+        right: 70px;
+        left: auto;
+      }
+      &-links {
+        top: 70px;
+        &-overlay {
+          top: 70px;
+        }
+      }
+    }
+  }
+  .hero {
+    margin-top: 39px;
+    justify-content: start;
+    &-title {
+      font-size: 31px;
+      line-height: 40px;
+      margin-top: 55px;
+    }
+    &-paragraph {
+      font-size: 19px;
+      line-height: 25px;
+    }
+  }
+  .products {
+    max-width: 100%;
+
+    .aside {
+      .cart {
+        &-list {
+          padding-right: 0;
+          min-width: 260px;
+          .item {
+            width: 100%;
+          }
+        }
+        &-btns {
+          flex-direction: column;
+        }
+        &-btn-view {
+          margin-bottom: 10px;
+        }
+        &-modal {
+          .modal {
+            &-item {
+              padding: 10px 0;
+              position: relative;
+              .item {
+                &-img-wrapper {
+                  width: 60px;
+                  margin-right: 10px;
+                }
+
+                &-heading,
+                &-details {
+                  margin-top: -10px;
+                }
+                &-heading {
+                  font-size: 14px;
+                }
+
+                &-total {
+                  position: absolute;
+                  bottom: 0;
+                  right: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+      .abv {
+        #slider-range {
+          min-width: 200px;
+        }
+      }
+    }
+
+    &-main {
+      margin: 0 auto;
+    }
+
+    &-beers {
+      width: 100%;
+      gap: 55px;
+      .card {
+        width: 280px;
+        height: 463px;
+        margin: 0 auto;
+
+        &-img {
+          height: 350px;
+        }
+      }
+      &-list {
+        .card {
+          height: fit-content;
+          padding: 0;
+          padding-top: 10px;
+          &-img-wrapper {
+            min-width: 80px !important;
+            margin: 12px;
+            margin-right: 18px;
+          }
+          &-img-wrapper {
+            button {
+              i {
+                font-size: 26px;
+              }
+            }
+          }
+          &-img {
+            height: 100px;
+            width: auto;
+          }
+          &-details {
+            margin-right: 15px;
+          }
+          &-heading {
+            font-size: 22px;
+            line-height: 28px;
+          }
+          &-description {
+            font-size: 12px;
+            line-height: 16px;
+            max-height: 100px;
+            max-width: 150px;
+            overflow-y: scroll;
+          }
+          &-btn {
+            margin-bottom: 14.5px;
+            transform: translateX(-40px);
+          }
+        }
+      }
+    }
+    &-options {
+      align-items: center !important;
+    }
+
+    &-modal {
+      .modal {
+        &-content {
+          padding: 20px;
+        }
+        &-img {
+          max-height: 200px;
+          width: auto;
+        }
+        &-heading {
+          font-size: 22px;
+          line-height: 28px;
+          margin-top: 20px;
+        }
+        &-list {
+          &-heading {
+            font-size: 17px;
+          }
+        }
+        &-btn {
+          width: 160px;
+          height: 35px;
+          font-size: 13px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+  .footer {
+    &-main {
+      flex-direction: column;
+      width: 280px;
+    }
+    &-info {
+      width: 100%;
+      max-width: none;
+      border-bottom: 0.5px solid #e5d2af;
+      padding-bottom: 40px;
+
+      &::after {
+        display: none;
+      }
+    }
+    &-paragraph {
+      width: 100%;
+      max-width: none;
+    }
+    &-links {
+      margin-left: 0;
+      border-bottom: 0.5px solid #e5d2af;
+      padding-bottom: 30px;
+      margin-bottom: 0;
+    }
+    &-blog {
+      margin-top: 0;
+      width: 280px;
+      max-width: none;
+      border-bottom: 0.5px solid #e5d2af;
+      margin-bottom: 0;
+      padding-bottom: 10px;
+    }
+    &-contacts {
+      margin-top: 0;
+    }
+    &-copyright {
+      margin-top: 0;
+    }
+  }
+}
